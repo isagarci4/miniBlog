@@ -1,10 +1,10 @@
-// import styles from "./Resgiter.module.css"
+import styles from "./Register.module.css";
 
 import { useState, useEffect } from "react";
 
-const Register = () => {
+const Register = () => {  
   return (
-    <div className="register">
+    <div className={styles.register}>
       <h1>Cadastre-se para postar</h1>
       <p>Crie seu usário e compartilhe suas histórias</p>
       <form>
